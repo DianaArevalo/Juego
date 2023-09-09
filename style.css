@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer base {
+    body {
+        @apply font-family bg-body text-black text-center;
+    }
+
+    .h1 {
+        @apply text-3xl capitalize;
+    }
+
+    .input {
+        @apply h-[50px] rounded-[8px] w-full outline-none px-6 text-primary;
+    }
+
+    .button {
+        @apply h-[50px] flex justify-center items-center rounded-[8px] px-10 py-[10px] text-sm uppercase font-bold;
+    }
+
+
+
+
+}
